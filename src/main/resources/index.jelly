@@ -1,0 +1,6 @@
+<div>
+    This plugin integrates with Atlassian Stash
+    <a href="https://www.atlassian.com/software/stash#pullrequests">Pull Requests</a>
+    with
+    Jenkins to provide preflight build capabilities (also known as pre-commit or gated check-in builds).
+</div>

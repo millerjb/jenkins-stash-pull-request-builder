@@ -1,0 +1,170 @@
+{
+    "size": 2,
+    "limit": 25,
+    "isLastPage": true,
+    "values": [
+        {
+            "id": 20574,
+            "createdDate": 1394215702000,
+            "user": {
+                "name": "user1@company.com",
+                "emailAddress": "user1@company.com",
+                "id": 85653,
+                "displayName": "User, 1",
+                "active": true,
+                "slug": "user1_company.com",
+                "link": {
+                    "url": "/users/user1_company.com",
+                    "rel": "self"
+                },
+                "links": {
+                    "self": [
+                        {
+                            "href": "http://host.company.com:7990/users/user1_company.com"
+                        }
+                    ]
+                }
+            },
+            "action": "MERGED"
+        },
+        {
+            "id": 20550,
+            "createdDate": 1394212625000,
+            "user": {
+                "name": "user1@company.com",
+                "emailAddress": "user1@company.com",
+                "id": 85653,
+                "displayName": "User, 1",
+                "active": true,
+                "slug": "user1_company.com",
+                "link": {
+                    "url": "/users/user1_company.com",
+                    "rel": "self"
+                },
+                "links": {
+                    "self": [
+                        {
+                            "href": "http://host.company.com:7990/users/user1_company.com"
+                        }
+                    ]
+                }
+            },
+            "action": "RESCOPED",
+            "fromHash": "10e2e5cb6f5c617eb296c2e9b0d9f8172ffdb70d",
+            "previousFromHash": "b6cb34ff409fb67f050c9284a0010dc2b9d070a0",
+            "previousToHash": "68afe09a11a421078e85bbe17240f24ca76963f4",
+            "toHash": "68afe09a11a421078e85bbe17240f24ca76963f4",
+            "added": {
+                "changesets": [
+                    {
+                        "id": "10e2e5cb6f5c617eb296c2e9b0d9f8172ffdb70d",
+                        "displayId": "10e2e5c",
+                        "author": {
+                            "name": "User 1",
+                            "emailAddress": "user1@company.com"
+                        },
+                        "authorTimestamp": 1394212595000,
+                        "message": "Merge remote-tracking branch 'origin/master' into feature/logout\n\n* origin/master:",
+                        "parents": [
+                            {
+                                "id": "b6cb34ff409fb67f050c9284a0010dc2b9d070a0",
+                                "displayId": "b6cb34f"
+                            },
+                            {
+                                "id": "5c8a3f6470653907bae6cba5d6ff4f4af877b0a2",
+                                "displayId": "5c8a3f6"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "5c8a3f6470653907bae6cba5d6ff4f4af877b0a2",
+                        "displayId": "5c8a3f6",
+                        "author": {
+                            "name": "User 1",
+                            "emailAddress": "user1@company.com"
+                        },
+                        "authorTimestamp": 1383585276000,
+                        "message": "Merge tag 'r1-sprint7'\n\ntagging Sprint 7 for release 1\n\n* tag 'r1-sprint7': (586 commits)",
+                        "parents": [
+                            {
+                                "id": "0f906189fa7f78057905bbca8147a8d941f4b234",
+                                "displayId": "0f90618"
+                            },
+                            {
+                                "id": "776f5e3593be2a12c17b40f397d6dea5d839d134",
+                                "displayId": "776f5e3"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0f906189fa7f78057905bbca8147a8d941f4b234",
+                        "displayId": "0f90618",
+                        "author": {
+                            "name": "User 1",
+                            "emailAddress": "user1@company.com"
+                        },
+                        "authorTimestamp": 1380556175000,
+                        "message": "Merge tag 'r1-sprint5'\n\ntagging Sprint 5 for release 1\n\n* tag 'r1-sprint5': (378 commits)",
+                        "parents": [
+                            {
+                                "id": "2418ec64d65a92ac79e96d37af71de28e6910526",
+                                "displayId": "2418ec6"
+                            },
+                            {
+                                "id": "f138a90c835d21811763d85c25af2d695105349c",
+                                "displayId": "f138a90"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2418ec64d65a92ac79e96d37af71de28e6910526",
+                        "displayId": "2418ec6",
+                        "author": {
+                            "name": "User 1",
+                            "emailAddress": "user1@company.com"
+                        },
+                        "authorTimestamp": 1378742829000,
+                        "message": "merge R1 Sprint 4 to master\nRelease 1 Sprint 4",
+                        "parents": [
+                            {
+                                "id": "a321c4cdb86420df3796800fa4f66b6e9d143aeb",
+                                "displayId": "a321c4c"
+                            },
+                            {
+                                "id": "4bbb461fa7d012757fa475eb9ad61bd781a2a10f",
+                                "displayId": "4bbb461"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "a321c4cdb86420df3796800fa4f66b6e9d143aeb",
+                        "displayId": "a321c4c",
+                        "author": {
+                            "name": "Peter Choi",
+                            "emailAddress": "pchoi@company.com"
+                        },
+                        "authorTimestamp": 1376687983000,
+                        "message": "Merge branch 'release/r1-sprint3'",
+                        "parents": [
+                            {
+                                "id": "2077eaad0291c00d242e90e0d6b27787e58efe74",
+                                "displayId": "2077eaa"
+                            },
+                            {
+                                "id": "156cc90064955c0f63ec8dfecec2afa8dd12e2e7",
+                                "displayId": "156cc90"
+                            }
+                        ]
+                    }
+                ],
+                "total": 5
+            },
+            "removed": {
+                "changesets": [],
+                "total": 0
+            }
+        }
+    ],
+    "start": 0,
+    "filter": null
+}

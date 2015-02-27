@@ -1,0 +1,368 @@
+{
+    "id": 1,
+    "version": 6,
+    "title": "Feature/logout",
+    "description": "use buttons instead of a href to avoid flashing to dashboard; add some comments; use absUrl",
+    "state": "MERGED",
+    "open": false,
+    "closed": true,
+    "createdDate": 1394130846000,
+    "updatedDate": 1394212625000,
+    "fromRef": {
+        "id": "refs/heads/feature/logout",
+        "displayId": "feature/logout",
+        "latestChangeset": "10e2e5cb6f5c617eb296c2e9b0d9f8172ffdb70d",
+        "repository": {
+            "slug": "repo-private",
+            "id": 665,
+            "name": "repo-private",
+            "scmId": "git",
+            "state": "AVAILABLE",
+            "statusMessage": "Available",
+            "forkable": true,
+            "origin": {
+                "slug": "repo",
+                "id": 583,
+                "name": "repo",
+                "scmId": "git",
+                "state": "AVAILABLE",
+                "statusMessage": "Available",
+                "forkable": true,
+                "origin": {
+                    "slug": "repo",
+                    "id": 491,
+                    "name": "repo",
+                    "scmId": "git",
+                    "state": "AVAILABLE",
+                    "statusMessage": "Available",
+                    "forkable": true,
+                    "project": {
+                        "key": "repo2",
+                        "id": 161,
+                        "name": "repo2",
+                        "description": "This is repo2 - lighter, better, and faster!",
+                        "public": true,
+                        "type": "NORMAL",
+                        "isPersonal": false,
+                        "link": {
+                            "url": "/projects/repo2",
+                            "rel": "self"
+                        },
+                        "links": {
+                            "self": [
+                                {
+                                    "href": "http://host.company.com:8080/projects/repo2"
+                                }
+                            ]
+                        }
+                    },
+                    "public": false,
+                    "link": {
+                        "url": "/projects/repo2/repos/repo/browse",
+                        "rel": "self"
+                    },
+                    "cloneUrl": "http://user1%40company.com@host.company.com:8080/scm/repo2/repo.git",
+                    "links": {
+                        "clone": [
+                            {
+                                "href": "http://user1%40company.com@host.company.com:8080/scm/repo2/repo.git",
+                                "name": "http"
+                            },
+                            {
+                                "href": "ssh://git@host.company.com:7999/repo2/repo.git",
+                                "name": "ssh"
+                            }
+                        ],
+                        "self": [
+                            {
+                                "href": "http://host.company.com:8080/projects/repo2/repos/repo/browse"
+                            }
+                        ]
+                    }
+                },
+                "project": {
+                    "key": "~user1_company.com",
+                    "id": 105,
+                    "name": "User, 1",
+                    "type": "PERSONAL",
+                    "isPersonal": true,
+                    "owner": {
+                        "name": "user1@company.com",
+                        "emailAddress": "user1@company.com",
+                        "id": 85653,
+                        "displayName": "User, 1",
+                        "active": true,
+                        "slug": "user1_company.com",
+                        "link": {
+                            "url": "/users/user1_company.com",
+                            "rel": "self"
+                        },
+                        "links": {
+                            "self": [
+                                {
+                                    "href": "http://host.company.com:8080/users/user1_company.com"
+                                }
+                            ]
+                        }
+                    },
+                    "link": {
+                        "url": "/users/user1_company.com",
+                        "rel": "self"
+                    },
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://host.company.com:8080/users/user1_company.com"
+                            }
+                        ]
+                    }
+                },
+                "public": false,
+                "link": {
+                    "url": "/users/user1_company.com/repos/repo/browse",
+                    "rel": "self"
+                },
+                "cloneUrl": "http://user1%40company.com@host.company.com:8080/scm/~user1_company.com/repo.git",
+                "links": {
+                    "clone": [
+                        {
+                            "href": "http://user1%40company.com@host.company.com:8080/scm/~user1_company.com/repo.git",
+                            "name": "http"
+                        },
+                        {
+                            "href": "ssh://git@host.company.com:7999/~user1_company.com/repo.git",
+                            "name": "ssh"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "href": "http://host.company.com:8080/users/user1_company.com/repos/repo/browse"
+                        }
+                    ]
+                }
+            },
+            "project": {
+                "key": "~user1_company.com",
+                "id": 105,
+                "name": "User, 1",
+                "type": "PERSONAL",
+                "isPersonal": true,
+                "owner": {
+                    "name": "user1@company.com",
+                    "emailAddress": "user1@company.com",
+                    "id": 85653,
+                    "displayName": "User, 1",
+                    "active": true,
+                    "slug": "user1_company.com",
+                    "link": {
+                        "url": "/users/user1_company.com",
+                        "rel": "self"
+                    },
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://host.company.com:8080/users/user1_company.com"
+                            }
+                        ]
+                    }
+                },
+                "link": {
+                    "url": "/users/user1_company.com",
+                    "rel": "self"
+                },
+                "links": {
+                    "self": [
+                        {
+                            "href": "http://host.company.com:8080/users/user1_company.com"
+                        }
+                    ]
+                }
+            },
+            "public": false,
+            "link": {
+                "url": "/users/user1_company.com/repos/repo-private/browse",
+                "rel": "self"
+            },
+            "cloneUrl": "http://user1%40company.com@host.company.com:8080/scm/~user1_company.com/repo-private.git",
+            "links": {
+                "clone": [
+                    {
+                        "href": "http://user1%40company.com@host.company.com:8080/scm/~user1_company.com/repo-private.git",
+                        "name": "http"
+                    },
+                    {
+                        "href": "ssh://git@host.company.com:7999/~user1_company.com/repo-private.git",
+                        "name": "ssh"
+                    }
+                ],
+                "self": [
+                    {
+                        "href": "http://host.company.com:8080/users/user1_company.com/repos/repo-private/browse"
+                    }
+                ]
+            }
+        }
+    },
+    "toRef": {
+        "id": "refs/heads/develop",
+        "displayId": "develop",
+        "latestChangeset": "68afe09a11a421078e85bbe17240f24ca76963f4",
+        "repository": {
+            "slug": "repo",
+            "id": 583,
+            "name": "repo",
+            "scmId": "git",
+            "state": "AVAILABLE",
+            "statusMessage": "Available",
+            "forkable": true,
+            "origin": {
+                "slug": "repo",
+                "id": 491,
+                "name": "repo",
+                "scmId": "git",
+                "state": "AVAILABLE",
+                "statusMessage": "Available",
+                "forkable": true,
+                "project": {
+                    "key": "repo2",
+                    "id": 161,
+                    "name": "repo2",
+                    "description": "This is repo2 - lighter, better, and faster!",
+                    "public": true,
+                    "type": "NORMAL",
+                    "isPersonal": false,
+                    "link": {
+                        "url": "/projects/repo2",
+                        "rel": "self"
+                    },
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://host.company.com:8080/projects/repo2"
+                            }
+                        ]
+                    }
+                },
+                "public": false,
+                "link": {
+                    "url": "/projects/repo2/repos/repo/browse",
+                    "rel": "self"
+                },
+                "cloneUrl": "http://user1%40company.com@host.company.com:8080/scm/repo2/repo.git",
+                "links": {
+                    "clone": [
+                        {
+                            "href": "http://user1%40company.com@host.company.com:8080/scm/repo2/repo.git",
+                            "name": "http"
+                        },
+                        {
+                            "href": "ssh://git@host.company.com:7999/repo2/repo.git",
+                            "name": "ssh"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "href": "http://host.company.com:8080/projects/repo2/repos/repo/browse"
+                        }
+                    ]
+                }
+            },
+            "project": {
+                "key": "~user1_company.com",
+                "id": 105,
+                "name": "User, 1",
+                "type": "PERSONAL",
+                "isPersonal": true,
+                "owner": {
+                    "name": "user1@company.com",
+                    "emailAddress": "user1@company.com",
+                    "id": 85653,
+                    "displayName": "User, 1",
+                    "active": true,
+                    "slug": "user1_company.com",
+                    "link": {
+                        "url": "/users/user1_company.com",
+                        "rel": "self"
+                    },
+                    "links": {
+                        "self": [
+                            {
+                                "href": "http://host.company.com:8080/users/user1_company.com"
+                            }
+                        ]
+                    }
+                },
+                "link": {
+                    "url": "/users/user1_company.com",
+                    "rel": "self"
+                },
+                "links": {
+                    "self": [
+                        {
+                            "href": "http://host.company.com:8080/users/user1_company.com"
+                        }
+                    ]
+                }
+            },
+            "public": false,
+            "link": {
+                "url": "/users/user1_company.com/repos/repo/browse",
+                "rel": "self"
+            },
+            "cloneUrl": "http://user1%40company.com@host.company.com:8080/scm/~user1_company.com/repo.git",
+            "links": {
+                "clone": [
+                    {
+                        "href": "http://user1%40company.com@host.company.com:8080/scm/~user1_company.com/repo.git",
+                        "name": "http"
+                    },
+                    {
+                        "href": "ssh://git@host.company.com:7999/~user1_company.com/repo.git",
+                        "name": "ssh"
+                    }
+                ],
+                "self": [
+                    {
+                        "href": "http://host.company.com:8080/users/user1_company.com/repos/repo/browse"
+                    }
+                ]
+            }
+        }
+    },
+    "author": {
+        "user": {
+            "name": "user1@company.com",
+            "emailAddress": "user1@company.com",
+            "id": 85653,
+            "displayName": "User, 1",
+            "active": true,
+            "slug": "user1_company.com",
+            "link": {
+                "url": "/users/user1_company.com",
+                "rel": "self"
+            },
+            "links": {
+                "self": [
+                    {
+                        "href": "http://host.company.com:8080/users/user1_company.com"
+                    }
+                ]
+            }
+        },
+        "role": "AUTHOR",
+        "approved": false
+    },
+    "reviewers": [],
+    "participants": [],
+    "link": {
+        "url": "/users/user1_company.com/repos/repo/pull-requests/1",
+        "rel": "self"
+    },
+    "links": {
+        "self": [
+            {
+                "href": "http://host.company.com:8080/users/user1_company.com/repos/repo/pull-requests/1"
+            }
+        ]
+    }
+}

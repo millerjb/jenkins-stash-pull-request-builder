@@ -1,0 +1,28 @@
+<p>Configure Jenkins to trigger builds for specific pull requests in Atlassian Stash.</p>
+
+<p>This trigger exposes several environment variables that can be wired into other plugins.</p>
+
+<dl>
+    <dt>
+        <kbd>STASH_PULL_REQUEST_ID</kbd>
+    </dt>
+    <dd>
+        The ID of the pull request that needs to be have a preflight build executed.
+    </dd>
+
+    <dt>
+        <kbd>STASH_PULL_REQUEST_TO_REF</kbd>
+    </dt>
+    <dd>
+        The name of the destination branch.
+    </dd>
+
+    <dt>
+        <kbd>STASH_PULL_REQUEST_FROM_CHANGESET</kbd>
+    </dt>
+    <dd>
+        The latest commit hash of the source branch.
+    </dd>
+
+</dl>
+
